@@ -1,1 +1,5 @@
-console.log('---', 123)
+import React from 'react'
+import { render } from 'react-dom'
+
+render(<h1>Hello world</h1>, document.getElementById('container'));
+console.log('---', 123);
